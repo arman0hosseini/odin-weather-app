@@ -91,6 +91,22 @@ main .main-data-container {
 
 main .main-data-container .weather-card {
   background-color: rgb(135, 189, 209);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .main-data-container .weather-card .icon {
+  width: 60px;
+  height: 50px;
+}
+
+main .main-data-container .weather-card .temp-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 main .main-data-container .card1 {
